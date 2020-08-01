@@ -1,0 +1,34 @@
+a:link, a:visited {
+    color: rgb(136, 221, 251);
+}
+
+a:hover {
+    color: rgb(111, 154, 248);
+}
+
+body {
+    background-color: rgb(41, 42, 47);
+    color: rgb(221, 221, 221);
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    font-family: Menlo;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: Menlo;
+    margin-top: 40px;
+}
+
+.lead {
+    font-family: Menlo;
+}
+
+p, li {
+    font-size: 18px;
+}

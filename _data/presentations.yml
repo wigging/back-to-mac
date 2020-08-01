@@ -1,0 +1,21 @@
+- title: Presentation title goes here
+  author: Marge Simpson
+  github: msimpson
+  twitter: msimpson
+  website: thesimpsons.com
+  thumbnail: here
+  year: 2020
+
+- title: Another title goes here
+  author: Homer Simpson
+  github: here
+  website: here
+  thumbnail: here
+  year: 2020
+
+- title: Title of presentation
+  author: Crusty Clown
+  twitter: crustyc
+  website: here
+  thumbnail: here
+  year: 2020
