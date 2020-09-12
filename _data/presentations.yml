@@ -1,6 +1,6 @@
 # Presentations for the 2020 Back to the Mac conference
 
-- title: Using Vision and Combine to Search for Text in Screenshots
+- title: Using Vision and Combine to search for text in screenshots
   description: I’m the creator of Screenie a Mac app to search for text in your screenshots. The core of the app is already open source. My talk will walk you through the text request Vision APIs, and how we can efficiently create an index for a large number of images in Swift using Combine, including code examples from Screenie. I’ll demonstrate how to improve search result accuracy using natural language concepts including tokenization, lemmatization, and data detection - all provided by the NaturalLanguage framework. Last, I’ll cover some new APIs added in macOS 11 for sentence embeddings which we can use to cluster similar screenshots. By the end of the talk, attendees will know how to use high level ML and NLP APIs on macOS to create an efficient image search.
   author: Noah Martin
   github: https://github.com/noahsmartin
@@ -15,9 +15,25 @@
   website: https://www.gaige.net
   thumbnail: here
 
-- title: Title of presentation
-  description: Lorem ipsum jipsum dingery doo da. Lorem ipsum jipsum dingery doo da day asdlfj ipsum dipsum digerry do da days here too.
-  author: Crusty Clown
-  twitter: crustyc
-  website: here
+- title: Notarization and your continuous integration system
+  description: If you want to distribute a Mac app outside the Mac App Store, Developer ID is no longer sufficient, you have to notarize your application. While Xcode can do everything for you in its organizer, it’s a good practice to have a separate machine for continuous integration, and that means scripting your builds for distribution. In this talk, we’ll go over the command-line `altool` to interface with Apple’s notarization system, and build a robust, yet simple script that can handle notarizing apps and disk images for immediate distribution from your website.
+  author: Philippe Casgrain
+  github: https://github.com/philippec/
+  twitter: https://twitter.com/philippec
+  thumbnail: here
+
+- title: Build a Mac app inside 30 minutes using nothing but SwiftUI
+  description: In this demonstration, I'll start from a new Xcode project and build a functioning Mac app using pure SwiftUI. I'll show how to use the standard Mac features that are not present in iOS apps such as multiple windows of varying sizes, preferences, menus, keyboard shortcuts, and UI elements that are not available on iOS or are different on the Mac. This demo is inspired by my series of blog posts on SwiftUI for Mac.
+  author: Sarah Reichelt
+  github: https://github.com/trozware
+  twitter: https://twitter.com/trozware
+  website: https://troz.net/
+  thumbnail: here
+
+- title: Developer ID distribution with GitHub Actions
+  description: For this presentation, I would like to share a full-featured solution that replaces tools like Sparkle and App Center with free and easy-to-use services from Microsoft such as GitHub Actions and GitHub Releases. This presentation shows a modern approach for Mac app distribution outside the App Store.
+  author: Vadim Shpakovski
+  github: https://github.com/shpakovski
+  twitter: https://twitter.com/VadimShpakovski
+  website: https://nativeconnect.app/
   thumbnail: here
