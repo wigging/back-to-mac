@@ -8,11 +8,11 @@
   website: http://www.noahmart.in
   thumbnail: here
 
-- title: Another title goes here
-  description: Lorem ipsum jipsum dingery doo da. Lorem ipsum jipsum dingery doo da day asdlfj ipsum dipsum digerry do da days here too.
-  author: Homer Simpson
-  github: here
-  website: here
+- title: Using XPC to execute Python code in your Mac app
+  description: This presentation will discuss using XPC to create a Python interpreter environment within your Mac application, including describing why you’d want a python interpreter in the first place, why you would benefit by using XPC, and how to establish bi-directional data links. Finally, I’ll discuss the results I observed doing this in my app, Cartographica.
+  author: Gaige Paulsen
+  github: https://github.com/gaige
+  website: https://www.gaige.net
   thumbnail: here
 
 - title: Title of presentation
