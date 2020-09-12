@@ -1,21 +1,23 @@
-- title: Presentation title goes here
-  author: Marge Simpson
-  github: msimpson
-  twitter: msimpson
-  website: thesimpsons.com
+# Presentations for the 2020 Back to the Mac conference
+
+- title: Using Vision and Combine to Search for Text in Screenshots
+  description: I’m the creator of Screenie a Mac app to search for text in your screenshots. The core of the app is already open source. My talk will walk you through the text request Vision APIs, and how we can efficiently create an index for a large number of images in Swift using Combine, including code examples from Screenie. I’ll demonstrate how to improve search result accuracy using natural language concepts including tokenization, lemmatization, and data detection - all provided by the NaturalLanguage framework. Last, I’ll cover some new APIs added in macOS 11 for sentence embeddings which we can use to cluster similar screenshots. By the end of the talk, attendees will know how to use high level ML and NLP APIs on macOS to create an efficient image search.
+  author: Noah Martin
+  github: https://github.com/noahsmartin
+  twitter: https://twitter.com/sond813
+  website: http://www.noahmart.in
   thumbnail: here
-  year: 2020
 
 - title: Another title goes here
+  description: Lorem ipsum jipsum dingery doo da. Lorem ipsum jipsum dingery doo da day asdlfj ipsum dipsum digerry do da days here too.
   author: Homer Simpson
   github: here
   website: here
   thumbnail: here
-  year: 2020
 
 - title: Title of presentation
+  description: Lorem ipsum jipsum dingery doo da. Lorem ipsum jipsum dingery doo da day asdlfj ipsum dipsum digerry do da days here too.
   author: Crusty Clown
   twitter: crustyc
   website: here
   thumbnail: here
-  year: 2020
