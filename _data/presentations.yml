@@ -1,39 +1,93 @@
 # Presentations for the 2020 Back to the Mac conference
 
 - title: Using Vision and Combine to search for text in screenshots
-  description: I’m the creator of Screenie a Mac app to search for text in your screenshots. The core of the app is already open source. My talk will walk you through the text request Vision APIs, and how we can efficiently create an index for a large number of images in Swift using Combine, including code examples from Screenie. I’ll demonstrate how to improve search result accuracy using natural language concepts including tokenization, lemmatization, and data detection - all provided by the NaturalLanguage framework. Last, I’ll cover some new APIs added in macOS 11 for sentence embeddings which we can use to cluster similar screenshots. By the end of the talk, attendees will know how to use high level ML and NLP APIs on macOS to create an efficient image search.
   author: Noah Martin
   github: https://github.com/noahsmartin
   twitter: https://twitter.com/sond813
   website: http://www.noahmart.in
   thumbnail: here
+  description: I’m the creator of Screenie a Mac app to search for text in your screenshots. The core of the app is already open source. My talk will walk you through the text request Vision APIs, and how we can efficiently create an index for a large number of images in Swift using Combine, including code examples from Screenie. I’ll demonstrate how to improve search result accuracy using natural language concepts including tokenization, lemmatization, and data detection - all provided by the NaturalLanguage framework. Last, I’ll cover some new APIs added in macOS 11 for sentence embeddings which we can use to cluster similar screenshots. By the end of the talk, attendees will know how to use high level ML and NLP APIs on macOS to create an efficient image search.
 
 - title: Using XPC to execute Python code in your Mac app
-  description: This presentation will discuss using XPC to create a Python interpreter environment within your Mac application, including describing why you’d want a python interpreter in the first place, why you would benefit by using XPC, and how to establish bi-directional data links. Finally, I’ll discuss the results I observed doing this in my app, Cartographica.
   author: Gaige Paulsen
   github: https://github.com/gaige
   website: https://www.gaige.net
   thumbnail: here
+  description: This presentation will discuss using XPC to create a Python interpreter environment within your Mac application, including describing why you’d want a python interpreter in the first place, why you would benefit by using XPC, and how to establish bi-directional data links. Finally, I’ll discuss the results I observed doing this in my app, Cartographica.
 
 - title: Notarization and your continuous integration system
-  description: If you want to distribute a Mac app outside the Mac App Store, Developer ID is no longer sufficient, you have to notarize your application. While Xcode can do everything for you in its organizer, it’s a good practice to have a separate machine for continuous integration, and that means scripting your builds for distribution. In this talk, we’ll go over the command-line `altool` to interface with Apple’s notarization system, and build a robust, yet simple script that can handle notarizing apps and disk images for immediate distribution from your website.
   author: Philippe Casgrain
   github: https://github.com/philippec/
   twitter: https://twitter.com/philippec
   thumbnail: here
+  description: If you want to distribute a Mac app outside the Mac App Store, Developer ID is no longer sufficient, you have to notarize your application. While Xcode can do everything for you in its organizer, it’s a good practice to have a separate machine for continuous integration, and that means scripting your builds for distribution. In this talk, we’ll go over the command-line `altool` to interface with Apple’s notarization system, and build a robust, yet simple script that can handle notarizing apps and disk images for immediate distribution from your website.
 
 - title: Build a Mac app inside 30 minutes using nothing but SwiftUI
-  description: In this demonstration, I'll start from a new Xcode project and build a functioning Mac app using pure SwiftUI. I'll show how to use the standard Mac features that are not present in iOS apps such as multiple windows of varying sizes, preferences, menus, keyboard shortcuts, and UI elements that are not available on iOS or are different on the Mac. This demo is inspired by my series of blog posts on SwiftUI for Mac.
   author: Sarah Reichelt
   github: https://github.com/trozware
   twitter: https://twitter.com/trozware
   website: https://troz.net/
   thumbnail: here
+  description: In this demonstration, I'll start from a new Xcode project and build a functioning Mac app using pure SwiftUI. I'll show how to use the standard Mac features that are not present in iOS apps such as multiple windows of varying sizes, preferences, menus, keyboard shortcuts, and UI elements that are not available on iOS or are different on the Mac. This demo is inspired by my series of blog posts on SwiftUI for Mac.
 
 - title: Developer ID distribution with GitHub Actions
-  description: For this presentation, I would like to share a full-featured solution that replaces tools like Sparkle and App Center with free and easy-to-use services from Microsoft such as GitHub Actions and GitHub Releases. This presentation shows a modern approach for Mac app distribution outside the App Store.
   author: Vadim Shpakovski
   github: https://github.com/shpakovski
   twitter: https://twitter.com/VadimShpakovski
   website: https://nativeconnect.app/
   thumbnail: here
+  description: For this presentation, I would like to share a full-featured solution that replaces tools like Sparkle and App Center with free and easy-to-use services from Microsoft such as GitHub Actions and GitHub Releases. This presentation shows a modern approach for Mac app distribution outside the App Store.
+
+- title: "Turbo charge SQLite with Swift: CLI, server-side, and apps"
+  author: Jason Jobe
+  github: https://github.com/wildthink
+  twitter: https://twitter.com/jasonj_2009
+  website: https://medium.com/@jasonj_2009
+  thumbnail: here
+  description: Swiftly and easily extend SQLite with virtual tables, table-values functions, and custom scaler, aggregate, and window SQL functions. Imagine a SQL interface to Number Series, Clocks, Calendars, File Systems, User Defaults and more. I'll introduce some extenstions to a great SQLite Swift Framework and illustrate how and why you might create your own. Written in Swift, these extensions can be used from a modified sqlite3 command line shell or incorporated into any Swift application.
+
+- title: Understanding macOS application bundles by building an agent-based app
+  author: Derik Ramirez
+  github: https://github.com/rderik
+  twitter: https://twitter.com/rderik
+  website: https://rderik.com/
+  description: Application bundles seem like a topic everyone understands, but few have tried to build an app manually. We leave all the responsibility to Xcode, but when something goes wrong, we don’t know where to search for answers. I believe this topic could help macOS developers understand clearly the entry points and what makes up an application bundle.
+
+- title: Notarizing disk images for Developer ID distribution
+  author: Sasmito Adibowo
+  github: https://github.com/adib
+  twitter: https://twitter.com/SasmitoAdibowo
+  website: https://cutecoder.org
+  description: Distributing Mac apps outside the store means signing and notarizing the app. When your app needs to function offline, this implies that you need to stamp the notarization result. Otherwise, you risk the dreaded “Apple cannot verify this application for malware” warning to your user. It also means needing to distribute apps as disk images instead of a simple ZIP archive since the latter cannot be stamped. But creating a notarized and stamped disk image is a lengthy 10-step process. Xcode is yet to provide a 1-click command to do this. What is the process involved to create a properly notarized and stamped disk image and how to automate this entire ordeal? Watch the talk to find out more.
+
+- title: What if video was just another texture?
+  author: Ted Bradley
+  website: https://www.linkedin.com/in/tedbradleyuk/
+  description: Accessing a live video's raw frames opens up lots of possibilities such as chroma-keying and precisely timed graphical effects. Even accurately pausing on a single frame and drawing over the top is hard - frame synchronized real-time graphics is another level. People would usually turn to a third-party framework such as FFmpeg. Instead, I will demonstrate the less well-documented APIs in AVFoundation to make this possible. I'll also give a taste of what we can achieve when we render these frames via Metal and SceneKit. We'll also see what's possible once you have some metadata about the camera providing the video.
+
+- title: The journey of making a Mac app in SwiftUI
+  author: Malin Sundberg
+  twitter: https://twitter.com/malinsundberg
+  website: https://timeinorbit.com
+  description: In this talk, I'll run through the journey of making a Mac app, using (mainly) SwiftUI. Building an app with such a new framework has been a lot of fun, but it also came with some challenges. I would love to share some of these challenges I encountered along the way, my troubleshooting process, and the solutions I found. SwiftUI has changed since I started building the app, so I also want to chat about the impacts this has had on the app and the codebase.
+
+- title: Building a custom search suggestions window
+  author: Lucas Derraugh
+  github: https://github.com/lucasderraugh
+  twitter: https://twitter.com/LucasDerraugh
+  website: https://derraugh.com
+  description: In this talk I will show how you get a window overlay that doesn't take focus from your main window but can interact with keyboard events. It will be something like Safari's search bar window and does not steal key focus from the main window.
+
+- title: "Metal in Two Dimensions: Accelerating the Canvas"
+  author: Warren Moore
+  github: https://github.com/warrenm
+  twitter: https://twitter.com/warrenm
+  website: https://warrenmoore.net
+  description: This talk describes how to use Metal to draw in 2D. Although we ordinarily think of Metal as a 3D graphics API, it can also be used to render 2D elements such as lines, curves, gradients, and text. These can be used to create custom user interfaces or even entire drawing applications. The talk begins with a brief introduction to the Metal API and command submission model, continues with several demonstrations of how to do high-performance low-level rendering in 2D, and concludes with a survey of popular GPU-accelerated UI systems, including Dear ImGui and NanoVG.
+
+- title: here
+  author: here
+  github: here
+  twitter: here
+  website: here
+  description: here
