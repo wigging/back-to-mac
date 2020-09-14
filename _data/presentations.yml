@@ -82,7 +82,7 @@
   author: Warren Moore
   github: https://github.com/warrenm
   twitter: https://twitter.com/warrenm
-  website: https://warrenmoore.net
+  website: https://metalbyexample.com
   description: This talk describes how to use Metal to draw in 2D. Although we ordinarily think of Metal as a 3D graphics API, it can also be used to render 2D elements such as lines, curves, gradients, and text. These can be used to create custom user interfaces or even entire drawing applications. The talk begins with a brief introduction to the Metal API and command submission model, continues with several demonstrations of how to do high-performance low-level rendering in 2D, and concludes with a survey of popular GPU-accelerated UI systems, including Dear ImGui and NanoVG.
 
 - title: here
