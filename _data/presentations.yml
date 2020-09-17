@@ -6,7 +6,7 @@
   twitter: https://twitter.com/sond813
   website: http://www.noahmart.in
   thumbnail: here
-  description: I’m the creator of Screenie a Mac app to search for text in your screenshots. The core of the app is already open source. My talk will walk you through the text request Vision APIs, and how we can efficiently create an index for a large number of images in Swift using Combine, including code examples from Screenie. I’ll demonstrate how to improve search result accuracy using natural language concepts including tokenization, lemmatization, and data detection - all provided by the NaturalLanguage framework. Last, I’ll cover some new APIs added in macOS 11 for sentence embeddings which we can use to cluster similar screenshots. By the end of the talk, attendees will know how to use high level ML and NLP APIs on macOS to create an efficient image search.
+  description: I’m the creator of Screenie, a Mac app to search for text in your screenshots. The core of the app is already open source. My talk will walk you through the text request Vision APIs, and how we can efficiently create an index for a large number of images in Swift using Combine, including code examples from Screenie. I’ll demonstrate how to improve search result accuracy using natural language concepts including tokenization, lemmatization, and data detection - all provided by the NaturalLanguage framework. Last, I’ll cover some new APIs added in macOS 11 for sentence embeddings which we can use to cluster similar screenshots. By the end of the talk, attendees will know how to use high level ML and NLP APIs on macOS to create an efficient image search.
 
 - title: Using XPC to execute Python code in your Mac app
   author: Gaige Paulsen
@@ -85,9 +85,18 @@
   website: https://metalbyexample.com
   description: This talk describes how to use Metal to draw in 2D. Although we ordinarily think of Metal as a 3D graphics API, it can also be used to render 2D elements such as lines, curves, gradients, and text. These can be used to create custom user interfaces or even entire drawing applications. The talk begins with a brief introduction to the Metal API and command submission model, continues with several demonstrations of how to do high-performance low-level rendering in 2D, and concludes with a survey of popular GPU-accelerated UI systems, including Dear ImGui and NanoVG.
 
-- title: here
-  author: here
-  github: here
-  twitter: here
-  website: here
-  description: here
+- title: Building a Modern Mac App with C++ Libraries
+  author: Leo Dion
+  github: https://github.com/leogdion
+  twitter: https://twitter.com/leogdion
+  website: https://brightdigit.com
+  thumbnail: here
+  description: With Speculid, I built an app using existing C++ libraries to create app icons from SVG files. After WWDC 2020, I updated the app along with its build process and use of documents. In this talk, I'll explain how I used HomeBrew, GitHub Actions, and Swift Packages to create a consistent developer experience via continuous integration. I'll also cover how to integrate libraries like Cairo and Librsvg with Swift as well as the challenges associated with packaging, sandboxing, SwiftUI docs and more.
+
+- title: Swift Argument Parser is Your Friend
+  author: Leo Dion
+  github: https://github.com/leogdion
+  twitter: https://twitter.com/leogdion
+  website: https://brightdigit.com
+  thumbnail: here
+  description: The Swift Argument Parser is the premier way to build command line applications. In this talk, I explain the basics of the Swift Package manager and how to get started building your first command line tool using the Swift Argument Parser. I'll go over decoding arguments, flags, and options and how to build a robust terminal application.
