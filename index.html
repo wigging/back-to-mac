@@ -12,18 +12,20 @@
     <meta name="twitter:description" content="An online conference for Mac developers. Visit our website for more information." />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Back to the Mac</title>
 </head>
 <body>
 <div class="container">
 
+    <!------------------------------ Banner ------------------------------->
+
     <div class="row">
         <div class="col-md text-center">
             <img src="img/logo200x200.svg" class="mt-5" style="max-width: 100px;">
             <h1>Back to the Mac</h1>
-            <p class="lead">An online conference for Mac developers.</p>
+            <p class="lead">An online conference for Mac developers</p>
             <p>
                 <a href="mailto:infoATbacktomacDOTorg" onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">Email</a> ·
                 <a href="https://tinyletter.com/backtomac">Newsletter</a> ·
@@ -34,7 +36,7 @@
         </div>
     </div>
 
-    <!-- About -->
+    <!------------------------------ About ------------------------------->
 
     <div class="row">
         <div class="col-md">
@@ -50,42 +52,7 @@
         </div>
     </div>
 
-    <!-- Presentations -->
-
-    <div class="row">
-        <div class="col-md">
-            <h3 style="color: rgb(238, 131, 176);">Presentations</h3>
-            <p>Coming soon.</p>
-        </div>
-    </div>
-
-<!--
-    {% for p in site.data.presentations %}
-    <div class="row mt-4">
-            <div class="col-md-2">
-                <img class="mb-3 rounded-lg" style="max-width: 100px;" src="profile.png">
-            </div>
-            <div class="col-md">
-                <h5>{{ p.title }}</h5>
-                <ul class="list-unstyled">
-                    <li>{{ p.author }}</li>
-                    <li>
-                        {% if p.github%}
-                            <a href="{{ p.github }}">GitHub</a> &ensp;
-                        {% endif %}
-                        {% if p.twitter%}
-                            <a href="{{ p.twitter }}">Twitter</a> &ensp;
-                        {% endif %}
-                        {% if p.website%}
-                            <a href="{{ p.website }}">Website</a> &ensp;
-                        {% endif %}
-                    </li>
-                </ul>
-            </div>
-    </div>
-    {% endfor %}
--->
-    <!-- Submit -->
+    <!------------------------------ Submit ------------------------------->
 
     <div class="row">
         <div class="col-md">
@@ -111,15 +78,17 @@
         </div>
     </div>
 
-    <!-- Recording -->
+    <!------------------------------ Recording ------------------------------->
 
     <div class="row">
         <div class="col-md">
             <h3 style="color: rgb(213, 189, 251);">Recording your talk</h3>
             <p>Presenters should record their presentation or demo at fullscreen resolution. This will ensure the videos are encoded at the highest quality for YouTube. Try to keep the duration of the video to 30 minutes or less. Presenters will be given a Dropbox link for uploading their video. See the resources provided below for information about recording videos along with some recommended software and hardware options.</p>
             <ul>
-                <li><a href="https://youtu.be/mLyPrblmPp4">How to Record Computer Screen and Webcam</a></li>
+                <li><a href="https://youtu.be/mLyPrblmPp4">How to record computer screen and webcam using QuickTime</a></li>
+                <li><a href="https://youtu.be/yRnANp2kS3c">How to record Keynote and webcam using QuickTime and iMovie</a></li>
                 <li><a href="http://www.telestream.net/screenflow/overview.htm">ScreenFlow</a></li>
+                <li><a href="https://apps.apple.com/us/app/pearl-mirror-in-your-menubar/id1152715357?mt=12">Pearl</a></li>
                 <li><a href="https://obsproject.com">OBS Studio</a></li>
                 <li><a href="https://www.bluemic.com">Blue</a></li>
                 <li><a href="https://www.elgato.com">Elgato</a></li>
@@ -127,7 +96,48 @@
         </div>
     </div>
 
-    <!-- Support -->
+    <!------------------------------ Presentations ------------------------------->
+
+    <div class="row">
+        <div class="col-md">
+            <h3 style="color: rgb(238, 131, 176);">Presentations</h3>
+        </div>
+    </div>
+
+    {% for p in site.data.presentations %}
+    <div class="row mt-4">
+            <div class="col-md-2">
+                <img class="mb-3 rounded-lg" style="max-width: 100px;" src="img/comingsoon.png">
+            </div>
+            <div class="col-md">
+                <h4>{{ p.title }}</h4>
+                <p>
+                    by {{ p.author }}
+                    {% if p.github%}
+                        &nbsp; <a href="{{ p.github }}">GitHub</a>
+                    {% endif %}
+                    {% if p.twitter%}
+                        &nbsp; <a href="{{ p.twitter }}">Twitter</a>
+                    {% endif %}
+                    {% if p.website%}
+                        &nbsp; <a href="{{ p.website }}">Website</a>
+                    {% endif %}
+                </p>
+                <p>{{ p.description }}</p>
+            </div>
+    </div>
+    {% endfor %}
+
+    <!------------------------------ Archive ------------------------------->
+
+    <div class="row">
+        <div class="col-md">
+            <h3 style="color: rgb(239, 135, 118);">Archive</h3>
+            <p>Nothing to see this year. Check back next year.</p>
+        </div>
+    </div>
+
+    <!------------------------------ Support ------------------------------->
 
     <div class="row">
         <div class="col-md">
@@ -142,16 +152,7 @@
         </div>
     </div>
 
-    <!-- Archive -->
-
-    <div class="row">
-        <div class="col-md">
-            <h3 style="color: rgb(239, 135, 118);">Archive</h3>
-            <p>Nothing to see this year. Check back next year.</p>
-        </div>
-    </div>
-
-    <!-- Footer -->
+    <!------------------------------ Footer ------------------------------->
 
     <div class="row mt-5 mb-5">
         <div class="col-md">
