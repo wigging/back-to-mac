@@ -36,12 +36,12 @@
         </div>
     </div>
 
-    <!------------------------------ About ------------------------------->
+    <!------------------------------ Call for proposals ------------------------------->
 
     <div class="row">
         <div class="col-md">
-            <h3 style="color: rgb(136, 192, 180);">About</h3>
-            <p>Join us in November for the first annual Back to the Mac conference where misfits, rebels, troublemakers, and the ones who think differently will share their knowledge about developing Mac apps. The conference is free. There are no registration or application fees. It is completely online as a collection of videos on our YouTube channel. Videos are recorded by the speakers and information is provided so viewers can contact presenters with questions or comments.</p>
+            <h3 style="color: rgb(136, 192, 180);">Call for proposals</h3>
+            <p>Join us in November for the annual Back to the Mac conference. The conference is completely online as a collection of videos on our YouTube channel. Videos are recorded by the speakers and information is provided so viewers can contact presenters with questions or comments.</p>
             <p><strong>Deadlines for the 2020 conference:</strong></p>
             <ul>
                 <li>Submissions are open from August 1 through September 8</li>
@@ -52,54 +52,47 @@
         </div>
     </div>
 
-    <!------------------------------ Call for proposals ------------------------------->
+    <!------------------------------ Submit your talk ------------------------------->
 
     <div class="row">
         <div class="col-md">
-            <h3 style="color: rgb(242, 164, 95);">Call for proposals</h3>
-            <p>If you would like to give a presentation or demo for the 2020 Back to the Mac conference, please submit your talk using the guidelines available <a href="proposals.html">here</a>.</p>
-            <p>The call for 2020 proposals is over. See ya next year.</p>
+            <h3 style="color: rgb(242, 164, 95);">Submit your talk</h3>
+            <p>If you would like to give a presentation or demo, please submit your talk via <a href="mailto:submit2020ATbacktomacDOTorg" onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">email</a> by September 8. Include the items listed below in your submission. Keep in mind that presentations and demos should be less than 30 minutes.</p>
+            <ul>
+                <li>Presentation title</li>
+                <li>Presenters first and last name</li>
+                <li>A brief description of your talk or demo</li>
+                <li>Links to your GitHub, Twitter, personal website, or blog</li>
+            </ul>
+            <p>Here are some ideas for presentations. Other topics are welcome as long as they are relevant to native Mac app development.</p>
+            <ul>
+                <li>Command line applications</li>
+                <li>Server side programming with Swift</li>
+                <li>Machine learning on macOS</li>
+                <li>Using Swift and SwiftUI for Mac app development</li>
+                <li>Utilize C++, Python, and other languages in a native Mac app</li>
+                <li>GPU programming with Metal</li>
+                <li>Scientific computing with Swift and Accelerate</li>
+                <li>Distributing Mac apps outside the App Store</li>
+            </ul>
         </div>
     </div>
 
-    <!------------------------------ Presentations ------------------------------->
+    <!------------------------------ Recording your talk ------------------------------->
 
     <div class="row">
         <div class="col-md">
-            <h3 style="color: rgb(238, 131, 176);">Presentations</h3>
-        </div>
-    </div>
-
-    {% for p in site.data.presentations %}
-    <div class="row mt-4">
-            <div class="col-md-2">
-                <img class="mb-3 rounded-lg" style="max-width: 100px;" src="img/comingsoon.png">
-            </div>
-            <div class="col-md">
-                <h4>{{ p.title }}</h4>
-                <p>
-                    by {{ p.author }}
-                    {% if p.github%}
-                        &nbsp; <a href="{{ p.github }}">GitHub</a>
-                    {% endif %}
-                    {% if p.twitter%}
-                        &nbsp; <a href="{{ p.twitter }}">Twitter</a>
-                    {% endif %}
-                    {% if p.website%}
-                        &nbsp; <a href="{{ p.website }}">Website</a>
-                    {% endif %}
-                </p>
-                <p>{{ p.description }}</p>
-            </div>
-    </div>
-    {% endfor %}
-
-    <!------------------------------ Archive ------------------------------->
-
-    <div class="row">
-        <div class="col-md">
-            <h3 style="color: rgb(239, 135, 118);">Archive</h3>
-            <p>Nothing to see this year. Check back next year.</p>
+            <h3 style="color: rgb(213, 189, 251);">Recording your talk</h3>
+            <p>Presenters should record their presentation or demo at fullscreen resolution. This will ensure the videos are encoded at the highest quality for YouTube. Try to keep the duration of the video to 30 minutes or less. Presenters will be given a Dropbox link for uploading their video. See the resources provided below for information about recording videos along with some recommended software and hardware options.</p>
+            <ul>
+                <li><a href="https://youtu.be/mLyPrblmPp4">How to record computer screen and webcam using QuickTime</a></li>
+                <li><a href="https://youtu.be/yRnANp2kS3c">How to record Keynote and webcam using QuickTime and iMovie</a></li>
+                <li><a href="http://www.telestream.net/screenflow/overview.htm">ScreenFlow</a></li>
+                <li><a href="https://apps.apple.com/us/app/pearl-mirror-in-your-menubar/id1152715357?mt=12">Pearl</a></li>
+                <li><a href="https://obsproject.com">OBS Studio</a></li>
+                <li><a href="https://www.bluemic.com">Blue</a></li>
+                <li><a href="https://www.elgato.com">Elgato</a></li>
+            </ul>
         </div>
     </div>
 

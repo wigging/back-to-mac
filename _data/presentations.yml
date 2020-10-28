@@ -28,15 +28,7 @@
   twitter: https://twitter.com/trozware
   website: https://troz.net/
   thumbnail: here
-  description: In this demonstration, I'll start from a new Xcode project and build a functioning Mac app using pure SwiftUI. I'll show how to use the standard Mac features that are not present in iOS apps such as multiple windows of varying sizes, preferences, menus, keyboard shortcuts, and UI elements that are not available on iOS or are different on the Mac. This demo is inspired by my series of blog posts on SwiftUI for Mac.
-
-- title: Developer ID distribution with GitHub Actions
-  author: Vadim Shpakovski
-  github: https://github.com/shpakovski
-  twitter: https://twitter.com/VadimShpakovski
-  website: https://nativeconnect.app/
-  thumbnail: here
-  description: For this presentation, I would like to share a full-featured solution that replaces tools like Sparkle and App Center with free and easy-to-use services from Microsoft such as GitHub Actions and GitHub Releases. This presentation shows a modern approach for Mac app distribution outside the App Store.
+  description: In this demonstration, I will build a fully functioning Mac app using pure SwiftUI. I'll show how to use the standard Mac features that are not present in iOS apps such as windows of varying sizes and with multiple panes, toolbars, menus, keyboard shortcuts, and UI elements that are not available on iOS or are different on the Mac.
 
 - title: "Turbo charge SQLite with Swift: CLI, server-side, and apps"
   author: Jason Jobe
@@ -67,6 +59,7 @@
 
 - title: The journey of making a Mac app in SwiftUI
   author: Malin Sundberg
+  github: https://github.com/malinsundberg
   twitter: https://twitter.com/malinsundberg
   website: https://timeinorbit.com
   description: In this talk, I'll run through the journey of making a Mac app, using (mainly) SwiftUI. Building an app with such a new framework has been a lot of fun, but it also came with some challenges. I would love to share some of these challenges I encountered along the way, my troubleshooting process, and the solutions I found. SwiftUI has changed since I started building the app, so I also want to chat about the impacts this has had on the app and the codebase.
