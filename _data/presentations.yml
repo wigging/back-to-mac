@@ -30,13 +30,13 @@
   thumbnail: here
   description: In this demonstration, I will build a fully functioning Mac app using pure SwiftUI. I'll show how to use the standard Mac features that are not present in iOS apps such as windows of varying sizes and with multiple panes, toolbars, menus, keyboard shortcuts, and UI elements that are not available on iOS or are different on the Mac.
 
-  - title: Building a Modern Mac App with C++ Libraries
-    author: Leo Dion
-    github: https://github.com/leogdion
-    twitter: https://twitter.com/leogdion
-    website: https://brightdigit.com
-    thumbnail: here
-    description: With Speculid, I built an app using existing C++ libraries to create app icons from SVG files. After WWDC 2020, I updated the app along with its build process and use of documents. In this talk, I'll explain how I used HomeBrew, GitHub Actions, and Swift Packages to create a consistent developer experience via continuous integration. I'll also cover how to integrate libraries like Cairo and Librsvg with Swift as well as the challenges associated with packaging, sandboxing, SwiftUI docs and more.
+- title: Building a Modern Mac App with C++ Libraries
+  author: Leo Dion
+  github: https://github.com/leogdion
+  twitter: https://twitter.com/leogdion
+  website: https://brightdigit.com
+  thumbnail: here
+  description: With Speculid, I built an app using existing C++ libraries to create app icons from SVG files. After WWDC 2020, I updated the app along with its build process and use of documents. In this talk, I'll explain how I used HomeBrew, GitHub Actions, and Swift Packages to create a consistent developer experience via continuous integration. I'll also cover how to integrate libraries like Cairo and Librsvg with Swift as well as the challenges associated with packaging, sandboxing, SwiftUI docs and more.
 
 - title: "Turbo charge SQLite with Swift: CLI, server-side, and apps"
   author: Jason Jobe
