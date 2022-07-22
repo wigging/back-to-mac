@@ -1,3 +1,3 @@
 # Back to the Mac
 
-An online conference for Mac developers.
+A YouTube channel for Mac developers.
