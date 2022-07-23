@@ -1,3 +1,3 @@
-# Back to the Mac
+# MacDevs
 
 A YouTube channel for Mac developers.
